@@ -1,6 +1,6 @@
 {
   "name": "stoor.js",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "https://raw.githubusercontent.com/coderofsalvation/stoor.js/master/LICENSE",
   "main": "index.js",
   "directories": {
@@ -11,6 +11,7 @@
   },
   "author": "",
   "license": "ISC",
+  "repository":"https://github.com/coderofsalvation/stoor.js",
   "devDependencies": {
     "jsdom": "^12.0.0",
     "jsdom-global": "^3.0.2",
