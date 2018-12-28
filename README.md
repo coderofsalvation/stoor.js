@@ -71,3 +71,7 @@ Store-specific:
 * selfstudy in portable & dependency-free javascript
 * needed something jsonschema-, framework-agnostic-, async+sync ish for an existing codebase
 * sometimes converting a codebase to react/vuejs is too expensive
+
+## Credits
+
+* [valoo](https://gist.github.com/developit/a0430c500f5559b715c2dddf9c40948d)
