@@ -1,4 +1,4 @@
-> A tiny drop-in 🛸 jsonschema statemanager for javascript
+> A tiny drop-in 🛸 jsonschema statemanager / datastore for javascript
 
 <img src="https://api.travis-ci.org/coderofsalvation/stoor.js.svg?branch=master"/>
 
@@ -13,8 +13,8 @@ Output:
     ABC
     {type:'string', default:'foo'}
 
-This library is handy to act as the 'heart' of a javascript mobile or desktop application which was written programmatically (dom-style).
-Sometimes rewriting something in React/Vuejs is too expensive compared to introducing a functional store into the application.
+This library is handy to act as the 'heart' for battletested javascript UI-frameworks which are written programmatically (dom-style).
+Rewriting that in React/Vuejs would be too expensive compared to simply using it with a functional store.
 
 > NOTE: you can put stores into stores recursively 😎 like so:
 
