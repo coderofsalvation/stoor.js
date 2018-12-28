@@ -2,7 +2,7 @@
 
 ## Usage
 
-<center><img src="https://lh5.googleusercontent.com/TV99S8kriWNbNA6MYSiDZN1isQqlhQYiM6yYVzIr5_e2FM24jGjrnShyBARRXQjCi7vPJr1-0IRpjzwZQFb0=w1920-h1080-rw"/></center>
+<center><img src="https://raw.githubusercontent.com/coderofsalvation/stoor.js/master/screenshot.png"/></center>
 
 Output:
 
