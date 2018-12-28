@@ -26,11 +26,13 @@ Sometimes rewriting something in React/Vuejs is too expensive compared to introd
 ## Features
 
 * tiny portable library (code fits on one screen)
-* jsonschema initialisation (to generate forms later on)
+* jsonschema initialisation (to generate forms later on using [json-form](https://www.npmjs.com/package/jsonform) e.g.)
 * typesafe checks (extendable with [tv4](https://npmjs.org/package/tv4) using middleware for jsonschema v4-support)
 * sync + async access: `store.data.foo` returns `store.foo()` while bypassing middleware+listeners
 
-## Browser example
+## Use standalone in the Browser
+
+Dont like transpilers? No worries:
 
     <script src="https://unpkg.com/stoor.js"></script>
     <script>

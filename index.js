@@ -63,6 +63,8 @@ function Stoor(schema){
         	return true
         }
    	})
+
+   	this.schema = schema
     this.mw = new this.middleware()
     this.use = (c) => this.mw.use(c)
     this.trigger = (c) => this.mw.process(c,(i) => i)
