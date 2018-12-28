@@ -28,6 +28,13 @@ Sometimes rewriting something in React/Vuejs is too expensive compared to introd
 * typesafe checks (extendable with [tv4](https://npmjs.org/package/tv4) using middleware for jsonschema v4-support)
 * sync + async access: `store.data.foo` returns `store.foo()` while bypassing middleware+listeners
 
+## Browser example
+
+    <script src="https://unpkg.com/stoor.js"></script>
+    <script>
+        var store = new Stoor({...})
+    </script>
+
 ## Listeners
 
     var off = store.foo( (v) => {
