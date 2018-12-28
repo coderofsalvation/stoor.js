@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <textarea id="log" style="width:100%;position:absolute;bottom:0;left:0;right:0;top:66%"></textarea>
+
+        <script type="module" src="index.js"></script>
+        <script type="module">
+            import test from '/node_modules/zora/dist/zora.es.js'
+            window.require = (m) => m == "zora"  ? test  : 
+                                    m == "./../" ? Stoor : window[m] // stub
+            console._log = console.log.bind(console) 
+            console.log = (str) => {
+                console._log(str)
+                document.querySelector("#log").value += str + "\n"
+            }
+        </script>
+        <script type="module" src="test/init.js"></script>        
+        <script type="module" src="test/basic.js"></script>
+        <!--
+        <script type="module" src="test/middleware.js"></script>
+        -->
+        
+    </body>
+</html>

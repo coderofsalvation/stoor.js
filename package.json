@@ -1,0 +1,20 @@
+{
+  "name": "stoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js | tap-prettify -"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^12.0.0",
+    "jsdom-global": "^3.0.2",
+    "tap-prettify": "0.0.2",
+    "zora": "^2.0.1"
+  }
+}
