@@ -1,5 +1,7 @@
 > A tiny drop-in 🛸 jsonschema statemanager for javascript
 
+<img src="https://api.travis-ci.org/coderofsalvation/stoor.js.svg?branch=master"/>
+
 ## Usage
 
 <center><img src="https://raw.githubusercontent.com/coderofsalvation/stoor.js/master/screenshot.png"/></center>
