@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository":"https://github.com/coderofsalvation/stoor.js",
   "devDependencies": {
-    "jsdom": "^12.0.0",
+    "jsdom": "^16.5.0",
     "jsdom-global": "^3.0.2",
     "tap-prettify": "0.0.2",
     "zora": "^2.0.1"
